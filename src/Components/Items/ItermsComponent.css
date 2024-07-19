@@ -1,0 +1,34 @@
+ul{
+    height:200px; width:100%;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+  li {
+    margin-bottom: 2px;
+    padding: 2px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+  }
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .container{
+    position: absolute;
+    right: -1000px; /* Adjust this value as needed */
+
+  }
+    
+  .points-display {
+    transform: translateX(200%);
+  }
+  @keyframes slideIn {
+    from {
+      right: -1000px; /* Start off-screen */
+    }
+    to {
+      right: 0; /* End position */
+    }
+  }

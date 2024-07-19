@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Add vertical margin */
+    position: relative;
+    padding-top: 20px; /* Add some padding to the top */
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: auto; /* Adjust width to fit content */
+    height: auto; /* Adjust height to fit content */
+    margin-right: auto; /* Push the button to the left */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h1 {
+    margin: 0;
+    flex-grow: 1; /* Allow the h1 to grow and take up available space */
+    text-align: center; /* Center the text within the h1 */
+  }
+  

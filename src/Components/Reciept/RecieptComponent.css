@@ -1,0 +1,50 @@
+select, input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    margin-left: 10px; /* Add space between buttons */
+
+  }
+  
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .points {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #28a745;
+  }
+
+  form, .item-list, .points-display {
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  form {
+    transform: translateX(0);
+  }
+  
+  .item-list {
+    transform: translateX(100%);
+  }
+  
+  .points-display {
+    transform: translateX(200%);
+  }
+
+  
+  .hidden {
+    display: none;
+  }

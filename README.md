@@ -3,5 +3,5 @@
 http://www.roulette.io.s3-website-us-east-1.amazonaws.com/
 
 
-### ACessable via Cloudfront Distribution Domain Name
-https://d305i4q4v5urov.cloudfront.net
+### On Cloudfront Distribution Domain Name
+(http://d12odhtvjnm0mk.cloudfront.net/)
